@@ -1,0 +1,180 @@
+/* Top Bar */
+.top-bar {
+    background-color: #02732A;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to right, #6B5023, #A78C5E); /* Brown gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Dark Overlay to Ensure Text Visibility */
+.hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2); /* Light overlay to match image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Heading Styles */
+.hero-section h1 {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Placeholder 1920x800 Text */
+.hero-section .placeholder-text {
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.2); /* Faded text effect */
+    margin-bottom: 20px;
+}
+
+/* Description */
+.hero-section .description {
+    font-size: 1.2rem;
+    color: white;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+}
+
+/* Button */
+.hero-section .btn {
+    font-size: 1.2rem;
+    padding: 10px 25px;
+}
+/* Custom Styles */
+.main-header {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+    text-align: center;
+}
+/*
+.feature-section {
+    padding: 2rem 0;
+}
+
+.feature-item {
+    text-align: center;
+    padding: 2rem;
+}
+*/
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.cta-button {
+    margin-top: 1rem;
+}
+
+
+@media (max-width: 768px) {
+    .feature-item {
+        margin-bottom: 2rem;}
+}
+
+.grid-container1-fluid {
+    display: grid;
+    gap: 20px;
+    background-color: whitesmoke;
+    /* background-color:#ffffff; */
+
+}
+
+.grid-item {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color: greyishgree;
+}
+.item1 {
+    background-color: darkgrey;
+    text-align: left;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.item2 {
+    background-color: darkgrey;
+    text-align: left;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.item3 {
+    background-color: darkgrey;
+    text-align: left;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+
+.item4 {
+    background-color: darkgrey;
+    text-align: left;
+    grid-column: 1 / span 2;
+    grid-row: 3/ span 4;
+}
+
+.item5 {
+    background-color: rgb(16, 90, 16);
+    text-emphasis-color: whitesmoke;
+    grid-column: 1 / span 2;
+    grid-row: 7;
+}
+
+a {
+    color:white;
+}
+
+.footer-top {
+background-color: #2e221a;
+}
+
+.container custom-container-1 {
+    background-color: #2e221a;   
+}
+
+.navbar {
+    background-color: #2e221a;   
+}
+
+.nav-item {
+    color: white;
+}
+
+.nav-link {
+    text-emphasis-color: white;
+}
+
+.footer-info text-success image-color {
+    color: white;
+}
+
+.fas fa-phone-alt {
+    color: white;
+    text-decoration-color: rgb(8, 56, 8);
+}
+
+#fas fa-phone-alt
+{
+    color: white;
+    text-decoration-color: rgb(8, 56, 8);    
+}
